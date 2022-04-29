@@ -3,7 +3,7 @@
     "document_id": "8saKTUnMhHSwhLw8tvd0",
     "original_document_id": "8saKTUnMhHSwhLw8tvd0",
     "version": "29",
-    "lastChanged": "1651160651788",
+    "lastChanged": "1651245824902",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -62,7 +62,15 @@
                     ],
                     [
                         "Materials",
+                        "Space_mat"
+                    ],
+                    [
+                        "Materials",
                         "Unlit"
+                    ],
+                    [
+                        "Materials",
+                        "Unlit Space"
                     ],
                     [
                         "Materials",
@@ -329,6 +337,9 @@
                         "Screen Texture"
                     ],
                     [
+                        "Script"
+                    ],
+                    [
                         "Simple Emitter VFX 2"
                     ],
                     [
@@ -343,6 +354,10 @@
                     [
                         "Textures",
                         "Base 2"
+                    ],
+                    [
+                        "Textures",
+                        "Image"
                     ],
                     [
                         "Textures",
@@ -455,7 +470,7 @@
             "foldedOwnerSceneObjects": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "1651158926621453:416549"
+            "active_graph_asset": "1651245111679918:586594"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -1279,6 +1294,38 @@
                     "resId": "136",
                     "uid": "1651159256959844:455849",
                     "name": "Files\/File345",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "137",
+                    "uid": "1651244895496196:549252",
+                    "name": "Files\/File349.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "138",
+                    "uid": "1651244962655802:564599",
+                    "name": "Files\/File350",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "139",
+                    "uid": "1651244962723478:564634",
+                    "name": "Files\/File352.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "140",
+                    "uid": "1651245111679918:586594",
+                    "name": "Files\/File356",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2545,6 +2592,42 @@
                 {
                     "k": "348",
                     "v": "Files\/File348"
+                },
+                {
+                    "k": "349",
+                    "v": "Files\/File349.js"
+                },
+                {
+                    "k": "350",
+                    "v": "Files\/File350"
+                },
+                {
+                    "k": "351",
+                    "v": "Files\/File351.lsmat"
+                },
+                {
+                    "k": "352",
+                    "v": "Files\/File352.pvr"
+                },
+                {
+                    "k": "353",
+                    "v": "Files\/File353.png"
+                },
+                {
+                    "k": "354",
+                    "v": "Files\/File354.png"
+                },
+                {
+                    "k": "355",
+                    "v": "Files\/File355.pvr"
+                },
+                {
+                    "k": "356",
+                    "v": "Files\/File356"
+                },
+                {
+                    "k": "357",
+                    "v": "Files\/File357.lsmat"
                 }
             ]
         },
@@ -2875,6 +2958,22 @@
                     {
                         "k": "30801",
                         "v": "Resource.gif"
+                    },
+                    {
+                        "k": "30802",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "30803",
+                        "v": "Textures\/Image.png"
+                    },
+                    {
+                        "k": "30804",
+                        "v": "Materials\/Space_mat.lsmat"
+                    },
+                    {
+                        "k": "30805",
+                        "v": "Materials\/Unlit Space.lsmat"
                     }
                 ],
                 "hashes": [
@@ -2892,7 +2991,7 @@
                     },
                     {
                         "k": "30707",
-                        "v": "17e45979512a0db31c65dc004923c49d"
+                        "v": "b0a148f442b943b76a8c903435a4fc95"
                     },
                     {
                         "k": "30708",
@@ -3124,7 +3223,7 @@
                     },
                     {
                         "k": "30768",
-                        "v": "6655da83097e5eed71e0d29c41b3dfb0"
+                        "v": "ab39795d75984cf17dfcc224214b6467"
                     },
                     {
                         "k": "30769",
@@ -3144,7 +3243,7 @@
                     },
                     {
                         "k": "30773",
-                        "v": "9e91bb095e223e00dbc0ac28bdb0af78"
+                        "v": "427559fcfa37f6e2bcbfb0c60681e0d7"
                     },
                     {
                         "k": "30774",
@@ -3180,7 +3279,7 @@
                     },
                     {
                         "k": "30783",
-                        "v": "872b73fa1015d00f32d186d9a2a9b2d3"
+                        "v": "b16d3c389bfdf41bdd2344c1eab0d87f"
                     },
                     {
                         "k": "30784",
@@ -3188,7 +3287,7 @@
                     },
                     {
                         "k": "30785",
-                        "v": "3b6357adde8498faaf2d9941a6320ecf"
+                        "v": "67e578f59270afdfad37b1446b05a2d5"
                     },
                     {
                         "k": "30786",
@@ -3204,7 +3303,7 @@
                     },
                     {
                         "k": "30789",
-                        "v": "72bf4ae76e8d9cfc136aeb4536df437f"
+                        "v": "dbdf0d6ed731936583c617687a47fbf5"
                     },
                     {
                         "k": "30790",
@@ -3212,15 +3311,15 @@
                     },
                     {
                         "k": "30791",
-                        "v": "969322aac90277c8a8e633e2d8f5b661"
+                        "v": "9f662dc6844068a584c5d0338c804e5b"
                     },
                     {
                         "k": "30792",
-                        "v": "1428356fb78f4823b5ab3a18a93e6ffe"
+                        "v": "18a143b5dd1bc942142361bc8771ef3c"
                     },
                     {
                         "k": "30793",
-                        "v": "fc2812fb51ecc240814662e16c91322d"
+                        "v": "ce36d2620edc080a3f22cd12b293a8dd"
                     },
                     {
                         "k": "30794",
@@ -3232,11 +3331,11 @@
                     },
                     {
                         "k": "30796",
-                        "v": "0f32bb2c9047ee27a0f8d90be76b3529"
+                        "v": "196b069cfcb6941c0eff72aec716e154"
                     },
                     {
                         "k": "30797",
-                        "v": "6a7bfbc34952638e515aeb930485133e"
+                        "v": "cae5707189403600534faeff92f58a1e"
                     },
                     {
                         "k": "30798",
@@ -3248,610 +3347,654 @@
                     },
                     {
                         "k": "30800",
-                        "v": "709f5f1b48b42f0cb6e3f6beb769c531"
+                        "v": "8f055a629878f0fb961dc8be27b39e38"
                     },
                     {
                         "k": "30801",
                         "v": "acbdf20fd97173dbf943e62a3d31d3a0"
+                    },
+                    {
+                        "k": "30802",
+                        "v": "36aea2e75b6cc1cfc36caf18996e94c0"
+                    },
+                    {
+                        "k": "30803",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "30804",
+                        "v": "638fe38f02d74313a463a709ce14de1d"
+                    },
+                    {
+                        "k": "30805",
+                        "v": "2b602a126136c3ab1cd289395ec2b80f"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-04-28T17:39:10",
+                        "lastModified": "2022-04-29T17:23:41",
                         "name": "Public",
-                        "hash": "7678ae3ab65144c12d223ab29173cc93",
+                        "hash": "70814a8df689755d5a945761d62da4ef",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Analog TV 2.lsmat",
-                                "hash": "925a43f845e11221edeb08775e962073",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
+                                "lastModified": "2022-04-29T16:20:47",
                                 "name": "Analog TV.lsmat",
-                                "hash": "5b5c9fd91c86a07cca89dcec7f53abd4",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T11:39:24",
-                                "name": "Beam_shader.png",
-                                "hash": "d39132de82a79c0e2fde99d224fe164f",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-01-25T19:52:06",
-                                "name": "Echopark.hdr",
-                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Edge Detection.lsmat",
-                                "hash": "04c08400f21c89f42bd9b066f1d09ed6",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Empty VFX.lsvfx",
-                                "hash": "6e7b38ec62da8413cf8b7bc6cd6a4713",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-01-25T19:52:06",
-                                "name": "folder.lock",
-                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Gauss Blur.lsmat",
-                                "hash": "0c27ed41fbcc3a3827df7083165f3c3d",
+                                "hash": "afbd0aed6cfab168ab50a905ce7b59f4",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-04-28T17:39:09",
-                                "name": "Materials",
-                                "hash": "26683588bf15736ca189f12a070d2ac0",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T10:52:26",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:39:09",
-                                        "name": "Unlit.lsmat",
-                                        "hash": "5fb43dcbbcbdb9e38be5a41af0fde762",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:39:09",
-                                        "name": "Unlit_BalckHole.lsmat",
-                                        "hash": "ce91a54a04229215976ee00261f236c8",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:39:09",
-                                        "name": "Unlit_Vortex.lsmat",
-                                        "hash": "22c8fef56db1f093de58dd41d3695f0c",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-04-28T13:01:41",
-                                "name": "Noise Textures Pack",
-                                "hash": "f0ad5f4e294c3d3bc9394591047c8e1d",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T11:31:53",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2022-04-28T13:01:41",
-                                        "name": "Textures",
-                                        "hash": "b839d44c675afa15d42a88142e8228bd",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Anisotropic.jpg",
-                                                "hash": "591bc61fbb54a90fe4037800e4e61451",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Anisotropic2.jpg",
-                                                "hash": "6592ecd339e93a369b5936494dd32091",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Bacteria.jpg",
-                                                "hash": "8ea70b23d72c900378180a3c6efa1669",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Blobs.jpg",
-                                                "hash": "9d8afe99fce6ef9bcaffb3feb273ed28",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Blobs2.jpg",
-                                                "hash": "849edaeffcee4aebb458cb36d227bbbc",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Buya_Noise.jpg",
-                                                "hash": "1fcc6965d5ebadf5d7a8f409d13d2f55",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Canvas.jpg",
-                                                "hash": "6bfb9f12f57cddb0f159aa872e6c65a9",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Car_Flakes.jpg",
-                                                "hash": "ff5ddfb03501125d4a7acac29acd7871",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_clouds.jpg",
-                                                "hash": "4c48f23dfadc3de91cca2bbecfef198f",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_CurvedCube.jpg",
-                                                "hash": "b86eea74cc3f92566d53f220e13297e2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Default.jpg",
-                                                "hash": "1eff853f74ddfa968046a99254cbf752",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Dirt.jpg",
-                                                "hash": "7b6b144bd886f58fb1a0edbc67126bca",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Electric.jpg",
-                                                "hash": "4c578482c6b5f8cb345b844756dbf5d2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Electro.jpg",
-                                                "hash": "112dbda1f27a6cdc368b148fb1b86ecc",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Electro2.jpg",
-                                                "hash": "9b7a5c21cbf8eb9f9fde9c5b99df7c3d",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_FBM.jpg",
-                                                "hash": "4061dd7551859cd0c8daac8b37f84d9d",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Fire.jpg",
-                                                "hash": "dac480fec12bbf3bf6a1e47b3f8d614c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Flakes.jpg",
-                                                "hash": "1ccbf2813073040a7702946c7025d2c6",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Flakes2.jpg",
-                                                "hash": "386937e29184a9a8834ba79ac37c1897",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Fuzzy.jpg",
-                                                "hash": "afa3176dee440765ac22f094f5cabf72",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Gaz.jpg",
-                                                "hash": "0339cecc64059f656cb824660ab491b0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Gaz2.jpg",
-                                                "hash": "9460728f35833765a80ee029bdfdfe6c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Grid.jpg",
-                                                "hash": "42604990564678710e94314e22fcf5aa",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Grid2.jpg",
-                                                "hash": "713e94b4c2150d29c6525aea2c8dc671",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Hama.jpg",
-                                                "hash": "33b9c6f81c591ea89e9d670b281a231c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Hexagon.jpg",
-                                                "hash": "5fb69717709c4fab58d72123dfbbeb92",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Ice.jpg",
-                                                "hash": "fc6fe193ded76d5de3b17a3b289d1157",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Ice2.jpg",
-                                                "hash": "e1ca1043df4c2f85bc0af0b85d81aade",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_LCD.jpg",
-                                                "hash": "f4c9b4795d9315326f00672e19e2a9c0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Marble.jpg",
-                                                "hash": "6642e03d6284aa854ecb3d281333d8ac",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Marble2.jpg",
-                                                "hash": "51612986214b519be9a3fca25bb3b3ea",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Movie.jpg",
-                                                "hash": "21d19ec83a4067bdda5c5d51989efab8",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Naki.jpg",
-                                                "hash": "e08d8d3382539b4f738fe9d5766dbe9c",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Ober.jpg",
-                                                "hash": "71695330e3784f367831f24f6fc4c7ae",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Oily.jpg",
-                                                "hash": "4ea12f15f21b2ce3c79bd47be7119f49",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Pixel.jpg",
-                                                "hash": "4ed228fe29fa69b27346df838f2bff12",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Puffy.jpg",
-                                                "hash": "f95f595761c6dbf08a0e6485f6dd5f7b",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Ripped.jpg",
-                                                "hash": "edb21a56add904759870886cd2fe3be2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Scratches.jpg",
-                                                "hash": "71f3089011f0e3f7f83d9ae3cb04704a",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Smooth.jpg",
-                                                "hash": "f9448e1ada9a40c7d7970fc0bc9f74d8",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Soft.jpg",
-                                                "hash": "f0e2196d0e38dfe2a1e82dff6052a3a4",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_SoftRipped.jpg",
-                                                "hash": "5932d9c643c5ba11cddac6b74ddd22f0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Turbulence.jpg",
-                                                "hash": "cac7b25bf6c6836e1d8b58bd5d817ffc",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_VoronoiCamo.jpg",
-                                                "hash": "6928e8d2edfacadfe3c8d34a0896e9e0",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Wavy.jpg",
-                                                "hash": "e12ffb0714fbd0b7ddecc0ce3652d424",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_WavySoft.jpg",
-                                                "hash": "a4314b6ab109692194ff958296961424",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2022-04-28T11:31:53",
-                                                "name": "Noise_Wood.jpg",
-                                                "hash": "b770387f43753593286ba48c91a81ff6",
-                                                "children": ""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T11:31:53",
-                                "name": "NoiseTextures__PLACE_IN_OBJECTS_PANEL.oprfb",
-                                "hash": "7f52071038c901a0520ddd00ef319be4",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Particles VFX.lsvfx",
-                                "hash": "f90e6abbc045cedb2c6bcf3fd2de7dd9",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T10:56:49",
-                                "name": "Plane.mesh",
-                                "hash": "f3f8f179b87ba4b5a44077fb80d53214",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:20:56",
-                                "name": "Resource.gif",
-                                "hash": "acbdf20fd97173dbf943e62a3d31d3a0",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
-                                "name": "Simple Emitter VFX 2.lsvfx",
-                                "hash": "f525a8b2c6e3ad5a4025f5c46e1276f3",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T11:07:44",
-                                "name": "space_wallpaper.jpg",
-                                "hash": "3aafd840227c4d8a60b4516f43d88de5",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T11:42:56",
-                                "name": "Sphere.mesh",
-                                "hash": "ffbce66d7c12d942b13208740e9d0059",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T12:51:20",
-                                "name": "Swirl_Texture.png",
-                                "hash": "9ef2504230f74653ff2a9e429ec29e14",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:09",
-                                "name": "Swirl_VFX.lsvfx",
-                                "hash": "c2117fe9bf2f736bb44ba8c40274413f",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "true",
-                                "lastModified": "2022-04-28T17:15:26",
+                                "lastModified": "2022-04-29T17:09:22",
                                 "name": "Textures",
-                                "hash": "2afbbb639a616374846b09f5cdac5f78",
+                                "hash": "a3cc275cbcb2686a8648c27f073f6f96",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-04-28T11:46:53",
+                                        "lastModified": "2022-04-29T16:02:12",
                                         "name": "Base 2.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-04-28T11:46:53",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T12:21:21",
-                                        "name": "iridescence_combined.png",
-                                        "hash": "464f444dfcba88908c256dddc14e2779",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T12:52:50",
-                                        "name": "Particles Texture.png",
-                                        "hash": "92bbc0db9b88d58fd5538047917d20c8",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:15:26",
+                                        "lastModified": "2022-04-29T16:02:12",
                                         "name": "PE_Scanline 2.png",
                                         "hash": "fe51cf23f683ce06ef70a91cf6a35106",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:10:14",
-                                        "name": "PE_Scanline.png",
-                                        "hash": "fe51cf23f683ce06ef70a91cf6a35106",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:15:26",
+                                        "lastModified": "2022-04-29T16:02:12",
                                         "name": "PE_Screen_Vector 2.png",
                                         "hash": "b4361cdf13dbd1e9f019c5b1f8199509",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-04-28T17:10:14",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "iridescence_combined.png",
+                                        "hash": "464f444dfcba88908c256dddc14e2779",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "PE_Scanline.png",
+                                        "hash": "fe51cf23f683ce06ef70a91cf6a35106",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "Particles Texture.png",
+                                        "hash": "92bbc0db9b88d58fd5538047917d20c8",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "white.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
                                         "name": "PE_Screen_Vector.png",
                                         "hash": "b4361cdf13dbd1e9f019c5b1f8199509",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-04-28T12:00:59",
-                                        "name": "white.png",
-                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "lastModified": "2022-04-29T17:09:22",
+                                        "name": "Image.png",
+                                        "hash": "54b5e21104a4a7f86b3d510596fdc27e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-04-29T17:11:58",
+                                "name": "Materials",
+                                "hash": "ae73066702538b349c26a00cd2a378d3",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T17:11:52",
+                                        "name": "Unlit Space.lsmat",
+                                        "hash": "03f240e959a333fdf5a47d44351474ed",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:20:46",
+                                        "name": "Unlit_BalckHole.lsmat",
+                                        "hash": "976b7c3b07054d39ca35f87ab00a6355",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T17:11:15",
+                                        "name": "Space_mat.lsmat",
+                                        "hash": "638fe38f02d74313a463a709ce14de1d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:20:46",
+                                        "name": "Unlit_Vortex.lsmat",
+                                        "hash": "586bb2643af9be2be2f7cf4690a5c887",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:20:46",
+                                        "name": "Unlit.lsmat",
+                                        "hash": "27e93c580542a70dd364c630edffa124",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-04-28T17:39:10",
+                                "lastModified": "2022-04-29T16:20:47",
+                                "name": "Analog TV 2.lsmat",
+                                "hash": "3bef7cdab1959c1df785f8780d548205",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Beam_shader.png",
+                                "hash": "d39132de82a79c0e2fde99d224fe164f",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:47",
                                 "name": "VHS.lsmat",
-                                "hash": "284eebbf7856dd4d7baa81ed10ded3ef",
+                                "hash": "6a9d1c670dd2a142dc64ff8f61e78a9d",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Resource.gif",
+                                "hash": "acbdf20fd97173dbf943e62a3d31d3a0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Noise Textures Pack",
+                                "hash": "f0ad5f4e294c3d3bc9394591047c8e1d",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "Textures",
+                                        "hash": "b839d44c675afa15d42a88142e8228bd",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Movie.jpg",
+                                                "hash": "21d19ec83a4067bdda5c5d51989efab8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Anisotropic.jpg",
+                                                "hash": "591bc61fbb54a90fe4037800e4e61451",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Dirt.jpg",
+                                                "hash": "7b6b144bd886f58fb1a0edbc67126bca",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Flakes2.jpg",
+                                                "hash": "386937e29184a9a8834ba79ac37c1897",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Fire.jpg",
+                                                "hash": "dac480fec12bbf3bf6a1e47b3f8d614c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Default.jpg",
+                                                "hash": "1eff853f74ddfa968046a99254cbf752",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Ice.jpg",
+                                                "hash": "fc6fe193ded76d5de3b17a3b289d1157",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Turbulence.jpg",
+                                                "hash": "cac7b25bf6c6836e1d8b58bd5d817ffc",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Scratches.jpg",
+                                                "hash": "71f3089011f0e3f7f83d9ae3cb04704a",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Buya_Noise.jpg",
+                                                "hash": "1fcc6965d5ebadf5d7a8f409d13d2f55",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Fuzzy.jpg",
+                                                "hash": "afa3176dee440765ac22f094f5cabf72",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Oily.jpg",
+                                                "hash": "4ea12f15f21b2ce3c79bd47be7119f49",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Blobs2.jpg",
+                                                "hash": "849edaeffcee4aebb458cb36d227bbbc",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Pixel.jpg",
+                                                "hash": "4ed228fe29fa69b27346df838f2bff12",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Car_Flakes.jpg",
+                                                "hash": "ff5ddfb03501125d4a7acac29acd7871",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_LCD.jpg",
+                                                "hash": "f4c9b4795d9315326f00672e19e2a9c0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Electro.jpg",
+                                                "hash": "112dbda1f27a6cdc368b148fb1b86ecc",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Wood.jpg",
+                                                "hash": "b770387f43753593286ba48c91a81ff6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_CurvedCube.jpg",
+                                                "hash": "b86eea74cc3f92566d53f220e13297e2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Naki.jpg",
+                                                "hash": "e08d8d3382539b4f738fe9d5766dbe9c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Grid.jpg",
+                                                "hash": "42604990564678710e94314e22fcf5aa",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Marble2.jpg",
+                                                "hash": "51612986214b519be9a3fca25bb3b3ea",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Wavy.jpg",
+                                                "hash": "e12ffb0714fbd0b7ddecc0ce3652d424",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Bacteria.jpg",
+                                                "hash": "8ea70b23d72c900378180a3c6efa1669",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_FBM.jpg",
+                                                "hash": "4061dd7551859cd0c8daac8b37f84d9d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Blobs.jpg",
+                                                "hash": "9d8afe99fce6ef9bcaffb3feb273ed28",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_clouds.jpg",
+                                                "hash": "4c48f23dfadc3de91cca2bbecfef198f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_SoftRipped.jpg",
+                                                "hash": "5932d9c643c5ba11cddac6b74ddd22f0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Electro2.jpg",
+                                                "hash": "9b7a5c21cbf8eb9f9fde9c5b99df7c3d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Hama.jpg",
+                                                "hash": "33b9c6f81c591ea89e9d670b281a231c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Grid2.jpg",
+                                                "hash": "713e94b4c2150d29c6525aea2c8dc671",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Ober.jpg",
+                                                "hash": "71695330e3784f367831f24f6fc4c7ae",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Hexagon.jpg",
+                                                "hash": "5fb69717709c4fab58d72123dfbbeb92",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Ice2.jpg",
+                                                "hash": "e1ca1043df4c2f85bc0af0b85d81aade",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Puffy.jpg",
+                                                "hash": "f95f595761c6dbf08a0e6485f6dd5f7b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_WavySoft.jpg",
+                                                "hash": "a4314b6ab109692194ff958296961424",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Anisotropic2.jpg",
+                                                "hash": "6592ecd339e93a369b5936494dd32091",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_VoronoiCamo.jpg",
+                                                "hash": "6928e8d2edfacadfe3c8d34a0896e9e0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Smooth.jpg",
+                                                "hash": "f9448e1ada9a40c7d7970fc0bc9f74d8",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Soft.jpg",
+                                                "hash": "f0e2196d0e38dfe2a1e82dff6052a3a4",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Gaz2.jpg",
+                                                "hash": "9460728f35833765a80ee029bdfdfe6c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Gaz.jpg",
+                                                "hash": "0339cecc64059f656cb824660ab491b0",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Flakes.jpg",
+                                                "hash": "1ccbf2813073040a7702946c7025d2c6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Canvas.jpg",
+                                                "hash": "6bfb9f12f57cddb0f159aa872e6c65a9",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Ripped.jpg",
+                                                "hash": "edb21a56add904759870886cd2fe3be2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Marble.jpg",
+                                                "hash": "6642e03d6284aa854ecb3d281333d8ac",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "Noise_Electric.jpg",
+                                                "hash": "4c578482c6b5f8cb345b844756dbf5d2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-04-29T16:02:12",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-04-29T16:02:12",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Plane.mesh",
+                                "hash": "f3f8f179b87ba4b5a44077fb80d53214",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:46",
+                                "name": "Particles VFX.lsvfx",
+                                "hash": "95aaf557e074706956620b8baac9f446",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T17:23:41",
+                                "name": "Script.js",
+                                "hash": "36aea2e75b6cc1cfc36caf18996e94c0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:47",
+                                "name": "Edge Detection.lsmat",
+                                "hash": "eb80a34ab1ed51f29fb34d9276c13818",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:46",
+                                "name": "Simple Emitter VFX 2.lsvfx",
+                                "hash": "c35bb4461a4f5e70ac001b712b0e6c03",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Sphere.mesh",
+                                "hash": "ffbce66d7c12d942b13208740e9d0059",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "NoiseTextures__PLACE_IN_OBJECTS_PANEL.oprfb",
+                                "hash": "7f52071038c901a0520ddd00ef319be4",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Echopark.hdr",
+                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "space_wallpaper.jpg",
+                                "hash": "3aafd840227c4d8a60b4516f43d88de5",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:47",
+                                "name": "Gauss Blur.lsmat",
+                                "hash": "7cd636bc9eb5c0a3022e984f027466f0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:46",
+                                "name": "Swirl_VFX.lsvfx",
+                                "hash": "0ce8de206d991c16151c8a871c4ed632",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "Swirl_Texture.png",
+                                "hash": "9ef2504230f74653ff2a9e429ec29e14",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:20:46",
+                                "name": "Empty VFX.lsvfx",
+                                "hash": "7f86ab5c60313522d390dd22ef1b3346",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-04-29T16:02:12",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             }
                         ]
@@ -4020,6 +4163,36 @@
                                 "fileId": "232",
                                 "originalId": "233",
                                 "publicId": "30773",
+                                "source": "",
+                                "additional": {
+                                    "isUnpackedInPublic": "false"
+                                }
+                            },
+                            {
+                                "name": "Space_mat",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "138",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1651244962655802:564599",
+                                "fileId": "350",
+                                "originalId": "351",
+                                "publicId": "30804",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Unlit Space",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "140",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1651245111679918:586594",
+                                "fileId": "356",
+                                "originalId": "357",
+                                "publicId": "30805",
                                 "source": "",
                                 "additional": {
                                     "isUnpackedInPublic": "false"
@@ -5174,6 +5347,22 @@
                                 "publicId": "18446744073709551615",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Image",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "139",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1651244962723478:564634",
+                                "fileId": "352",
+                                "originalId": "353",
+                                "publicId": "30803",
+                                "source": "\/Users\/julienmarillet\/Library\/Caches\/Snap\/Lens Studio\/temp\/StudioziJOdXGfPwXV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "54b5e21104a4a7f86b3d510596fdc27e"
+                                }
                             }
                         ]
                     },
@@ -5668,20 +5857,28 @@
                         "publicId": "30801",
                         "source": "C:\/Users\/jmarillet\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioSiMoIclseVSl\/animation.t3d",
                         "additional": ""
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "137",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1651244895496196:549252",
+                        "fileId": "349",
+                        "originalId": "18446744073709551615",
+                        "publicId": "30802",
+                        "source": "\/Users\/julienmarillet\/Library\/Caches\/Snap\/Lens Studio\/temp\/StudioziJOdXGfPwXV\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1651135961359482:363421",
-                        "path_list": [
-                            "Materials",
-                            "Unlit_Vortex"
-                        ]
-                    }
+                "objects": [
+                    "1651139982906995:966766"
                 ]
             }
         },
@@ -7405,6 +7602,34 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "348"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1651244962723478:564634",
+                    "v": {
+                        "infos": {
+                            "originalSize": "5870",
+                            "compressedSize": "2723",
+                            "originalRAM": "230400",
+                            "compressedRAM": "28800",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "354",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "54b5e21104a4a7f86b3d510596fdc27e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "355"
                             }
                         ]
                     }
